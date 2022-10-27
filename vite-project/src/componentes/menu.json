@@ -1,0 +1,111 @@
+{
+  "name": "Menu",
+  "desayuno": [
+    
+    
+    {
+      "id": 1,
+      "name": "Cafe con Leche",
+      "price": 1500,
+      "imagen": "./src/imagenes/cafeconleche.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cafe Americano",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "name": "Capuccino",
+      "price": 2500
+    },
+    {
+      "id": 4,
+      "name": "Jugo de Frutas",
+      "price": 2000
+    },
+    {
+      "id": 5,
+      "name": "Pan con Huevo",
+      "price": 1000
+    },
+    {
+      "id": 6,
+      "name": "Panqueques",
+      "price": 1000
+    },
+    {
+      "id": 7,
+      "name": "Torta",
+      "price": 2000
+    }
+  ],
+
+  "Almuerzo": [
+    {
+      "id": 8,
+      "name": "Cafe con Leche",
+      "price": 1500
+    },
+    {
+      "id": 9,
+      "name": "Cafe Americano",
+      "price": 2000
+    },
+    {
+      "id": 10,
+      "name": "Capuccino",
+      "price": 2500
+    },
+    {
+      "id": 11,
+      "name": "Jugo de Naranja",
+      "price": 2000
+    },
+    {
+      "id": 12,
+      "name": "Jugo de Frambuesa",
+      "price": 2500
+    },
+    {
+      "id": 13,
+      "name": "Chocolate",
+      "price": 2000
+    },
+    {
+      "id": 14,
+      "name": "Bebida",
+      "price": 2000
+    },
+    {
+      "id": 15,
+      "name": "Hambuerguesa Simple",
+      "price": 8000
+    },
+    {
+      "id": 16,
+      "name": "Hamburguesa Doble",
+      "price": 10000
+    },
+    {
+      "id": 17,
+      "name": "Completo",
+      "price": 3000
+    },
+    {
+      "id": 18,
+      "name": "Papas Fritas",
+      "price": 3000
+    },
+    {
+      "id": 19,
+      "name": "Empanadas",
+      "price": 3000
+    },
+    {
+      "id": 20,
+      "name": "Aros de Cebolla",
+      "price": 3000
+    }
+  ]
+}
