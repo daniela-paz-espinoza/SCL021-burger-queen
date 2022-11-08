@@ -1,0 +1,52 @@
+body {
+    background: #FFB600;
+}
+
+.tituloRol {
+    color: #CC9200;
+    font-family: 'Jomhuria', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 90px;
+
+}
+
+.btnMesero {
+    color: #FFB600;
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    background: #805B00;
+    border: none;
+
+}
+
+.nomMesero {
+    color: #FFB600;
+    text-decoration: none;
+    font-family: 'Jomhuria', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.btnChef {
+    margin-left: 50px;
+    color: #FFB600;
+    width: 200px;
+    height: 100px;
+    border-radius: 10%;
+    background: #805B00;
+    border: none;
+
+}
+
+.nomChef {
+    color: #FFB600;
+    text-decoration: none;
+    font-family: 'Jomhuria', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+}
