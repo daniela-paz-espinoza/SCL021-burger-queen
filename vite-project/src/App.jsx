@@ -4,6 +4,7 @@ import { Cocina } from "./componentes/cocina";
 import { Routes, Route } from "react-router-dom";
 import { Desayuno } from "./componentes/desayuno";
 import { Almuerzo } from "./componentes/almuerzo";
+import { Comanda } from "./componentes/comanda";
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
         <Route path="/Desayuno" element={<Desayuno />} />
         <Route path="/Almuerzo" element={<Almuerzo />} />
         <Route path="/Cocina" element={<Cocina />} />
+        <Route path="/Comanda" element={<Comanda />} />
       </Routes>
     </>
   );

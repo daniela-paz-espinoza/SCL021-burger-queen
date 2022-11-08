@@ -1,27 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
+import { Comanda } from "./comanda";
 import logo from "../imagenes/logo.jpg";
 import Menu from "../componentes/menu.json";
-console.log(Menu.desayuno);
 
-const desayuno = Menu.desayuno;
 
+const desayunoBeber = Menu.beber;
+const desayunoComer = Menu.comer
 
 export function Desayuno() {
+    const [estado, setEstado] = useState("beber")
+    const [orden, setOrden] = useState([])
+
     return (
-        <div>
+        <div className="bodyDesayuno">
+
             <img src={logo} width="300px" className="logo" />
-            <h1 className="tituloDesayuno">Escoge tu menú</h1>
+            <h1 className="tituloDesayuno">Realiza el Pedido</h1>
+            <section>
+                <Comanda
+                cantidad = {1}
+                producto = "items.name"
+                valor = {2}
+                />
+            </section>
+            <button className="btnesDesayuno" onClick={() => { setEstado("beber") }}>Para Beber</button> 
+            <button className="btnesDesayuno" onClick={() => { setEstado("comer") }}>Para Comer</button>           
             <div className="json">
-                {desayuno.map(items => (
-                    <ul>
-
-                        <button className="btnesDesayuno">{items.name} <br /> {items.price} <br /> {items.imagen}</button>
-                    </ul>
-
-                ))}
-
+                {estado === "beber" ? (<>{desayunoBeber.map(items => (
+                    <div className="divContainer">
+                        <button className="btnesBeber" onClick={() => { setOrden(items) }}>{items.name} {items.price} <img src={items.picture} width="70px" /></button>
+                    </div>
+                ))}</>) : null}
             </div>
+            
+            <div className="jsonDos">
+                {estado === "comer" ? (<>{desayunoComer.map(items => (
+                    <div className="divContainer">
+                        <button className="btnesComer" >{items.name} {items.price} <img src={items.picture} width="70px" /></button>
+                    </div>
+                ))}</>) : null}
+                
+                </div>
 
         </div>
-    )
+            )
 }
+console.log(Object.values(items.picture))

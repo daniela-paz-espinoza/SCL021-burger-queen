@@ -1,3 +1,6 @@
+.bodyDesayuno {
+    background-color: #FFB600;
+}
 .tituloDesayuno {
     color: #CC9200;
     font-family: 'Jomhuria', cursive;
@@ -8,12 +11,60 @@
 
 }
 
+/* .json {
+    display: flex;
+    align-items: flex-end;
+} */
+
+/* .jsonDos {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 100px;
+} */
+
 .btnesDesayuno {
+    position: relative;
+    top: -650px;
     color: #CC9200;
-    width: 200px;
-    height: 100px;
-    border-radius: 10%;
+    font-family: 'Jomhuria', cursive;
+    margin: 10px;
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
     background: #805B00;
     border: none;
 
 }
+
+.btnesBeber {
+    position: relative;
+    top: -650px;
+    color: #CC9200;
+    font-family: 'Jomhuria', cursive;
+    margin: 10px;
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background: #805B00;
+    border: none;
+
+}
+
+.btnesComer {
+    position: relative;
+    top: -650px;
+    color: #CC9200;
+    font-family: 'Jomhuria', cursive;
+    margin: 10px;
+    font-size: 30px;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    background: #805B00;
+    border: none;
+
+}
+

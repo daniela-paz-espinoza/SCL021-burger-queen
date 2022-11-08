@@ -1,0 +1,76 @@
+.bodyComanda{
+    position: relative;
+    left: 400px;
+    top: -20px;
+    background: #FFCC4D;
+    margin-right: 1000px;
+    padding: 40px;
+    width: 600px;
+}
+
+.nMesa{
+    font-family: 'Roboto', sans-serif;
+    color: #CC9200;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+    left: -20px;
+}
+
+.inputNumero{
+    background: #805B00;  
+    border-radius: 35px;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    position: relative;
+    top: -80px;
+    left: 90px;
+}
+
+.nombreCliente{
+    font-family: 'Roboto', sans-serif;
+    color: #CC9200;
+    font-size: 20px;
+    position: relative;
+    top: -130px;
+    left: 150px;
+}
+
+.inputNombre{
+    background: #805B00;  
+    border-radius: 35px;
+    width: 140px;
+    height: 35px;
+    position: relative;
+    top: -175px;
+    left: 300px;
+}
+
+::placeholder { color: #FFCC4D; }
+
+ thead {
+    background: #805B00;
+    
+    
+}
+tr {
+    background: yellow;
+    color: blue;
+    
+    
+}
+th {
+    background: #805B00;
+    color: #FFCC4D;    
+    border: red 9px solid; 
+}
+table {
+    border-collapse: separate;
+    text-align: left;
+    font-size: 25pt;
+    padding-right: 40px;    
+    width: 300px;    
+    position: relative;
+    top: -160px;
+} 
